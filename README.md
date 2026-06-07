@@ -38,3 +38,10 @@ Step	Training Loss
 8000	0.887719
 8500	0.884226
 9000	0.887376 #final outcome 
+
+To use and run the model on your device :
+Donwload or clone this repostory 
+Run or click on the file named run.py and then test it out.
+You can also tweak the model to just outline the onjects only or for any use .
+
+example use case:accident detectors ,collision detectors and etc.
