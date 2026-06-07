@@ -69,3 +69,16 @@ example use case:accident detectors ,collision detectors and etc.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+It took approximatly 46mins to train the model on 5 epochs.
