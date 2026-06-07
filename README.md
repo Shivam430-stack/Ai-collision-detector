@@ -45,3 +45,26 @@ Run or click on the file named run.py and then test it out.
 You can also tweak the model to just outline the onjects only or for any use .
 
 example use case:accident detectors ,collision detectors and etc.
+
+
+
+
+
+
+
+
+
+
+![AI Collision Warning Demo](stardance_collision_proof.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
