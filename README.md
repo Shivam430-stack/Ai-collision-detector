@@ -63,7 +63,7 @@ example use case:accident detectors ,collision detectors and etc.
 
 
 
-![AI traning info](training.png)
+![AI traning info](traning.png)
 
 
 
