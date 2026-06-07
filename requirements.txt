@@ -1,0 +1,4 @@
+torch
+cv2
+transformers
+datasets
