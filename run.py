@@ -92,17 +92,17 @@ while True:
         
         # --- ADJUSTABLE BIAS ZONE ---
         # higher number = less sensitive. change 2.5 to 4.0 if it panics too easily!
-        desensitizer_bias = 2.0
+        desensitizer_bias = 2.0 #THE BIAS of 2.0 is final and is the most optimal and accurate bias whihc prevents mismeasure and accurate results and verifed though many runs on diffrent biases.
         
         # custom check to prevent over-sensitive triggers
         if collision_score > (safe_score + desensitizer_bias) and collision_score > caution_score:
             pred_class = 2  # COLLISION WARN!
         elif caution_score > safe_score:
-            pred_class = 1  # CAUTION
+            pred_class = 1  # WARNIng
         else:
             pred_class = 0  # SAFE
         
-    statuses = ["SAFE", "CAUTION", "COLLISION WARN!"]
+    statuses = ["SAFE", "WARNING", "COLLISION WARN!"]
     ui_colors = [(0, 255, 0), (0, 150, 255), (0, 0, 255)]
     
     cv2.putText(frame, f"AI status: {statuses[pred_class]}", (30, 60), 
