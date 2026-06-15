@@ -1,4 +1,8 @@
+gradio>=4.20.0
+opencv-python-headless
+numpy
 torch
-cv2
+torchvision
 transformers
 datasets
+accelerate
