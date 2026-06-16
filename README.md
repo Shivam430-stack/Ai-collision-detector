@@ -4,6 +4,7 @@ To use and run the Ai model :Download the model weigths and downalod the run.py 
 
  details of the traning wehn it was running in midway:
  [6998/9165 37:05 < 11:29, 3.14 it/s, Epoch 3.82/5]
+```
 Step	Training Loss
 500	0.939853
 1000	0.894445
@@ -38,7 +39,7 @@ Step	Training Loss
 8000	0.887719
 8500	0.884226
 9000	0.887376 #final outcome 
-
+```
 To use and run the model on your device :
 Donwload or clone this repostory 
 Run or click on the file named run.py and then test it out.
