@@ -40,6 +40,7 @@ Step	Training Loss
 8500	0.884226
 9000	0.887376 #final outcome 
 ```
+---
 To use and run the model on your device :
 Donwload or clone this repostory 
 Run or click on the file named run.py and then test it out.
