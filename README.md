@@ -1,7 +1,9 @@
 # Ai-collision-detector
 This is a transformer based collsion detector which uses your available camera to map out evry onject and also detect any collsion between the objects and this ai model also uses cross layer loss entropy too.A stardance.hackclub project
 To use and run the Ai model :Download the model weigths and downalod the run.py and add them in a single folder and run the run.py and make sure to have your camera available and have python and the neccesary liblaries to run the run.py .
-
+```
+   note:the hugging face space website in which my model is running the ouput and the input is in fast images and not fluid video becuase of gradio's restrictions but it would still work and detect as nromal evn if the output very slow and this mdoel is mean tto be a live detector not a image but can work somehow for fast images too .
+```
  details of the traning wehn it was running in midway:
  [6998/9165 37:05 < 11:29, 3.14 it/s, Epoch 3.82/5]
 ```
